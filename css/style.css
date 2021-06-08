@@ -1,0 +1,125 @@
+html,
+body,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+li,
+p {
+  font-family: "Rubik", sans-serif;
+}
+h2 {
+  font-weight: bolder;
+}
+.bold-text {
+  font-weight: bold;
+}
+.cyan-text {
+  color: #fff;
+}
+.purple {
+  background: #1db356;
+}
+.white-text {
+  color: #fff;
+}
+.block1 {
+  width: 980px;
+  margin: auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.nav {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.nav li {
+  display: inline;
+  padding: 0px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+.exp {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.exp li {
+  margin: 10px 0;
+}
+.achievements {
+  list-style-image: url("../icon.png");
+}
+.str-points {
+  list-style-image: url("../icon.png");
+}
+.logo-img {
+  width: 980px;
+}
+.name-tag {
+  font-size: 28px;
+  letter-spacing: 6px;
+}
+.paragraph {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+.green-background {
+  background-image: url("../img/etusivu-bannerikuva-kevat-1600x400.png");
+  background-position: bottom;
+  background-size: cover;
+}
+.circle-img {
+  border-radius: 50%;
+}
+.bold {
+  font-weight: bold;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#contact-form input,
+#contact-form textarea {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  width: 934px;
+  border: none;
+  border: 3px solid #1db457;
+}
+textarea {
+  font-family: "Rubik", sans-serif;
+  height: 100px;
+}
+input#submit {
+  width: 350px;
+  cursor: pointer;
+  background: #1db457;
+  color: #fff;
+  font-size: 24px;
+}
+.top {
+  padding: 20px 20px;
+  cursor: pointer;
+  background: #1db457;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}

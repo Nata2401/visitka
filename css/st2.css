@@ -1,0 +1,71 @@
+html,
+body,
+p,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+body,
+li,
+p {
+  font-family: "Rubik", sans-serif;
+}
+.bold-text {
+  font-weight: bold;
+}
+.cyan-text {
+  color: #fff;
+}
+.purple {
+  background: #229936;
+}
+.white-text {
+  color: #fff;
+}
+.block1 {
+  width: 980px;
+  margin: auto;
+}
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.nav li {
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.exp {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.achievements {
+  list-style-image: url("../icon.png");
+}
+.str-points {
+  list-style-image: url("../icon.png");
+}
+.inline {
+  display: inline-block;
+}
+.name {
+  font-size: 25px;
+  margin-right: 15px;
+}
+.container {
+  position: relative;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: #676e69;
+  font-size: 18px;
+}
