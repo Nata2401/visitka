@@ -10,6 +10,10 @@ li,
 p {
   font-family: "Rubik", sans-serif;
 }
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
 h2 {
   font-weight: bolder;
 }
@@ -28,6 +32,7 @@ h2 {
 .block1 {
   width: 980px;
   margin: auto;
+  margin-bottom: 20px;
   padding-top: 4px;
   padding-bottom: 4px;
 }
@@ -60,10 +65,28 @@ h2 {
   margin: 10px 0;
 }
 .achievements {
-  list-style-image: url("../icon.png");
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.achievements li {
+  background: url("../icon.png") no-repeat left center;
+  padding-left: 55px;
+  margin: 20px 0;
 }
 .str-points {
-  list-style-image: url("../icon.png");
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  column-count: 2;
+}
+.str-points li {
+  background: url("../icon.png") no-repeat left center;
+  padding-left: 55px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin: 30px 0;
+  margin-top: 0;
 }
 .logo-img {
   width: 980px;
@@ -116,10 +139,32 @@ input#submit {
   font-size: 24px;
 }
 .top {
+  text-decoration: none;
+  display: inline-block;
   padding: 20px 20px;
   cursor: pointer;
   background: #1db457;
   color: #fff;
-  font-size: 30px;
-  text-decoration: none;
+  text-align: center;
+  font-size: 28px;
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  bottom: 74px;
+  right: 85px;
+}
+.logo-container {
+  width: 980px;
+  height: 596px;
+  background-image: url("../img/93302052_544588899826649_2820451422091345920_n.jpg");
+  background-size: cover;
+
+  box-shadow: 0px -110px 50px 0px rgba(0, 0, 0, 0.8) inset;
+  margin: 0;
+}
+.text-overlap {
+  position: relative;
+  padding: 0 27px;
+  margin: 0;
+  top: -70px;
 }
